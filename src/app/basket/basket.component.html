@@ -1,8 +1,8 @@
-<h2>Basket page</h2>
+<h2>Сторінка ваших замовлень</h2>
 
 <div class="basket">
     <div class="items left-side">
-        <div 
+        <div
             class="product-item"
             *ngFor="let product of products"
         >
@@ -12,12 +12,12 @@
             <br>
             {{ product.price | currency }}
             <br>
-            <button (click)="deleteOrder(product)">delete</button>
+            <button (click)="deleteOrder(product)">Видалити</button>
         </div>
     </div>
     <div class="total-price right-side">
         <span>{{ priceTotal }} $</span>
         <hr>
-        <button>Подтвердить заказ</button>
+        <button>Підтвердити замовлення</button>
     </div>
 </div>
