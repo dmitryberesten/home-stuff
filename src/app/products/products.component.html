@@ -1,0 +1,14 @@
+<div class="products">
+
+    <div 
+        class="product" 
+        *ngFor="let prod of products"
+        [routerLink]="prod.id"
+    >
+        <img width="100" [src]="prod.image" alt="image">
+        <h4>{{ prod.title }}</h4>
+        <p>{{ prod.description }}</p>
+        <p>@{{ prod.price | currency }}$</p>
+    </div>
+
+</div>

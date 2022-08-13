@@ -1,0 +1,22 @@
+.basket{
+    display: flex;
+    justify-content: space-between;
+}
+
+.basket > div{
+    width: 50%;
+    min-height: 100px;
+    border: 2px solid gray;
+}
+
+.product-item{
+    border: 2px solid blue;
+}
+
+.right-side{
+    text-align: center;
+}
+
+span{
+    font-size: 50px;
+}

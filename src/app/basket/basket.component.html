@@ -1,0 +1,23 @@
+<h2>Basket page</h2>
+
+<div class="basket">
+    <div class="items left-side">
+        <div 
+            class="product-item"
+            *ngFor="let product of products"
+        >
+            {{ product.category }}
+            <br>
+            {{ product.title }}
+            <br>
+            {{ product.price | currency }}
+            <br>
+            <button (click)="deleteOrder(product)">delete</button>
+        </div>
+    </div>
+    <div class="total-price right-side">
+        <span>{{ priceTotal }} $</span>
+        <hr>
+        <button>Подтвердить заказ</button>
+    </div>
+</div>
