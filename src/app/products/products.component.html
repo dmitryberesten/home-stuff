@@ -1,14 +1,13 @@
-<div class="products">
+<div class="products center">
 
-    <div
-        class="product"
-        *ngFor="let prod of products"
-        [routerLink]="prod.id"
-    >
-        <img width="100" [src]="prod.image" alt="image">
-        <h4>{{ prod.title }}</h4>
-        <p>{{ prod.description }}</p>
-        <p>@{{ prod.price | currency }}$</p>
+  <div class="product list" *ngFor="let prod of products" [routerLink]="prod.id">
+    <div class="item">
+      <img width="100" [src]="prod.image" alt="image">
+      <h4>{{ prod.title }}</h4>
+      <!-- <p class="prod-description">{{ prod.description }}</p> -->
+      <!-- <p class="prod-price">@{{ prod.price | currency }}$</p> -->
+      <p class="prod-price">{{ prod.price }}$</p>
     </div>
+  </div>
 
 </div>
