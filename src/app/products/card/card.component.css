@@ -1,0 +1,37 @@
+div {
+  width: 600px;
+  margin: 0 auto 50px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-bottom: 1px;
+}
+
+img {
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+/*  */
+
+.center {
+  width: 700px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+button {
+  background-color: dodgerblue;
+  border: 1px solid rgb(0, 153, 255);
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 5px 1px;
+    cursor: pointer;
+}
+
+.price {
+  font-size: 30px;
+}
