@@ -46,3 +46,28 @@ img {
 .prod-price {
   margin-top: 50px;
 }
+
+
+button {
+  background-color: dodgerblue;
+  border: 1px solid rgb(0, 153, 255);
+  padding: 1px 10px;
+  font-size: 15px;
+  border-radius: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 3px 1px;
+    cursor: pointer;
+    color: white;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.price {
+  font-size: 20px;
+  margin-right: 10px;
+}

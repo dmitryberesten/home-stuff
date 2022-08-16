@@ -27,19 +27,20 @@ h2 {
 }
 
 img {
-  width: 200px;
+  width: 150px;
   margin-right: 20px;
 }
 
 .price {
   font-size: 25px;
-  align-self:flex-start;
+  align-self: flex-start;
   margin-right: 20px;
+  margin-left: 20px;
 }
 
 .category {
   font-size: 15px;
-  color:white;
+  color: white;
   text-transform: uppercase;
   margin-right: 10px;
   margin-left: 10px;
@@ -70,7 +71,7 @@ span {
 button {
   background-color: dodgerblue;
   border: 2px solid rgb(27, 116, 175);
-  padding: 5px;
+  padding: 5px 10px;
   font-size: 15px;
   border-radius: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -80,4 +81,8 @@ button {
   margin-top: 15px;
   height: 35px;
   color: white;
+}
+
+.accept-btn:checked {
+  background-color: chartreuse;
 }

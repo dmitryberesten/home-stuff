@@ -4,7 +4,12 @@
     <div class="item">
       <img width="100" [src]="prod.image" alt="image">
       <h4>{{ prod.title }}</h4>
-      <p class="prod-price">{{ prod.price }}$</p>
+
+      <p class="prod-price">
+       <span class="price">{{ prod.price }}$</span>
+        <button (click)="buy()">Більше</button>
+      </p>
+
     </div>
   </div>
 

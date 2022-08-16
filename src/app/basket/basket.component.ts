@@ -23,9 +23,9 @@ export class BasketComponent implements OnInit {
   }
 
   takeProducts(){
-    
+
     this.products = this.basketDataService.getOrders();
-    
+
   }
 
   deleteOrder(product: Product){

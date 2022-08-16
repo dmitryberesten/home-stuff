@@ -1,11 +1,11 @@
 <div *ngIf="product" class="center">
   <div>
-  <img width="200" [src]="product.image" alt="image">
+    <img width="200" [src]="product.image" alt="image">
     <h1>{{ product.title }}</h1>
     <p>{{ product.description }}</p>
-    <p class="price">{{ product.price }}$</p>
-    <button (click)="buy()">В кошик</button>
+    <div class="flex-container">
+      <p class="price">{{ product.price }}$</p>
+      <button (click)="buy()">В кошик</button>
     </div>
+  </div>
 </div>
-
-

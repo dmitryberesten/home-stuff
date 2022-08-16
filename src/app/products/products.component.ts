@@ -18,5 +18,10 @@ export class ProductsComponent implements OnInit {
         console.log(res)
       })
   }
+    buy(){
+    if(this.reqProducts){
+      this.products.saveOrder(this.buy)
+    }
+  }
 
 }
