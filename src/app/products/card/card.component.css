@@ -1,6 +1,6 @@
 div {
   width: 600px;
-  margin: 0 auto 50px;
+  margin: 0 auto 20px;
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -23,13 +23,19 @@ img {
 button {
   background-color: dodgerblue;
   border: 1px solid rgb(0, 153, 255);
-  padding: 15px;
-  font-size: 20px;
+  padding: 1px 15px;
+  font-size: 22px;
   border-radius: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    box-shadow: 0 0 5px 1px;
+    box-shadow: 0 0 3px 1px;
     cursor: pointer;
+    color: white;
+}
+
+button:hover {
+  background-color: rgb(27, 120, 212);
+  color: white;
 }
 
 .price {

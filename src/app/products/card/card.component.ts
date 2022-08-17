@@ -28,7 +28,6 @@ export class CardComponent implements OnInit {
         .subscribe(item => {
           this.product = item
           console.log(this.product);
-
         })
     })
 
