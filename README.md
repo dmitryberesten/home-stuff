@@ -1,6 +1,9 @@
 # Home Stuff
 During the training, it became possible to practice on this HOME STUFF web project, which was created using Angular technology. One key feature of this technology is that the page doesn't reload if you go to another page, kind of fantastic :)
 
+Link to the video presentation of this project on my YouTube channel:
+https://www.youtube.com/watch?v=ri4K2ETBYoU
+
 TECHNICAL CHARACTERISTICS:
 - Angular 14
 - CSS
