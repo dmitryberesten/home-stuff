@@ -9,3 +9,22 @@ TECHNICAL CHARACTERISTICS:
 - Grid
 - Page 404
 
+Home page:
+
+![1h](https://user-images.githubusercontent.com/87872240/185621541-ce52a63c-f03c-4315-8a2e-f4d11bc62f77.png)
+
+Products page:
+
+![2h](https://user-images.githubusercontent.com/87872240/185621612-d3acbbce-152c-4717-a371-9d972569aa14.png)
+
+Product card:
+
+![3h](https://user-images.githubusercontent.com/87872240/185621700-ecf139e7-157c-45ec-ba63-c9df72bc3bf2.png)
+
+Basket page: 
+
+![4h](https://user-images.githubusercontent.com/87872240/185621777-ea349f8a-6407-4509-928e-4c97761f93f3.png)
+
+Page not found:
+
+![5h](https://user-images.githubusercontent.com/87872240/185621863-1dd42601-2d9e-43b3-8897-76556e141362.png)
